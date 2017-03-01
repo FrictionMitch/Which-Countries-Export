@@ -22,6 +22,7 @@ public class WhichCountriesExport {
     }
 
     public void whoExportsCoffee() {
+        // leave parameter blank to select file
 //        FileResource fr = new FileResource();
         FileResource fr = new FileResource("exportdata.csv");
         CSVParser parser = fr.getCSVParser();
